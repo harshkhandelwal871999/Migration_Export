@@ -1,0 +1,462 @@
+﻿{
+  "SchemaVersion": 2,
+  "Flows": [
+    {
+      "EnvironmentId": "00000000-0000-0000-0000-000000000000",
+      "TimeoutSeconds": "600",
+      "DefaultTimeoutSec": "10",
+      "IsFailedUnlessPassed": "True",
+      "VideoRecording": "HighQuality",
+      "EnableVideoSubtitles": "False",
+      "AwaitRequests": "False",
+      "AwaitRequestsTimeout": "3",
+      "AwaitDomChange": "False",
+      "AwaitDomChangeTimeout": "3",
+      "LoggingLevel": "Full",
+      "FlowchartId": "f77b673b-f82c-47ce-955c-994247cf00c2",
+      "AssigneeUserId": "",
+      "WorkflowStatusId": "1368161e-584c-4c64-999d-85dd0eed4370",
+      "AgentConfigurationId": "",
+      "Description": "",
+      "DateCreation": "9/13/2026 6:57:26 PM +00:00",
+      "DateModify": "9/13/2026 6:57:26 PM +00:00",
+      "Title": "New Flow",
+      "Type": "Flow",
+      "IsDeleted": "False",
+      "Id": "e731d337-819c-4738-9900-b4c4dcdb000d",
+      "Flowchart": {
+        "Type": "Flow",
+        "ZoomFactor": "100",
+        "XPosition": "-4950",
+        "YPosition": "-4950",
+        "Width": "10000",
+        "Hight": "10000",
+        "IsDeleted": "False",
+        "Id": "f77b673b-f82c-47ce-955c-994247cf00c2",
+        "BuildingBlocks": [
+          {
+            "Title": "Pass",
+            "XPosition": "5720",
+            "YPosition": "5140",
+            "IsExpanded": "True",
+            "Width": "150",
+            "TemplateId": "",
+            "FlowchartId": "f77b673b-f82c-47ce-955c-994247cf00c2",
+            "Type": "Pass",
+            "Note": "",
+            "IsNoteVisible": "False",
+            "Id": "5b8c0048-e2ea-42e3-ae57-7b6e2bbd75b9",
+            "FlowProperties": [
+              {
+                "ParentBuildingBlockId": "5b8c0048-e2ea-42e3-ae57-7b6e2bbd75b9",
+                "ParentFlowPropertyId": "",
+                "TemplateId": "",
+                "Type": "TypeTextBlock",
+                "Key": "Text",
+                "Title": "",
+                "SortOrder": "1",
+                "ValueId": "ed71ec7f-6499-4a34-a545-b4c4eb73000d",
+                "LType": "LSignal",
+                "IsExpanded": "False",
+                "IsBlockPropertyChecked": "",
+                "CustomSortOrder": "0",
+                "Id": "5f8626ca-c154-4874-be21-1a9f41a8c355",
+                "ChildProperties": [
+                  {
+                    "ParentBuildingBlockId": "5b8c0048-e2ea-42e3-ae57-7b6e2bbd75b9",
+                    "ParentFlowPropertyId": "5f8626ca-c154-4874-be21-1a9f41a8c355",
+                    "TemplateId": "",
+                    "Type": "TokenizedText",
+                    "Key": "TokenizedText",
+                    "Title": "",
+                    "SortOrder": "0",
+                    "ValueId": "56cc44af-eab8-4586-bb8f-b4c4eb73000d",
+                    "LType": "LText",
+                    "IsExpanded": "False",
+                    "IsBlockPropertyChecked": "",
+                    "CustomSortOrder": "0",
+                    "Id": "d8164acf-9450-43b8-9211-e8fd43b3b1d0",
+                    "ChildProperties": [],
+                    "Connections": [],
+                    "Value": {
+                      "Value": "",
+                      "Id": "56cc44af-eab8-4586-bb8f-b4c4eb73000d"
+                    }
+                  }
+                ],
+                "Connections": []
+              },
+              {
+                "ParentBuildingBlockId": "5b8c0048-e2ea-42e3-ae57-7b6e2bbd75b9",
+                "ParentFlowPropertyId": "",
+                "TemplateId": "",
+                "Type": "Header",
+                "Key": "Header",
+                "Title": "Pass",
+                "SortOrder": "0",
+                "ValueId": "14e167bf-1a4e-4e51-b703-b4c4eb73000d",
+                "LType": "LSignal",
+                "IsExpanded": "False",
+                "IsBlockPropertyChecked": "",
+                "CustomSortOrder": "0",
+                "Id": "7f312ff5-c7a4-443c-bc3f-c5d74bd8e2d6",
+                "ChildProperties": [],
+                "Connections": []
+              }
+            ]
+          },
+          {
+            "Title": "Start",
+            "XPosition": "5000",
+            "YPosition": "5000",
+            "IsExpanded": "True",
+            "Width": "150",
+            "TemplateId": "",
+            "FlowchartId": "f77b673b-f82c-47ce-955c-994247cf00c2",
+            "Type": "Start",
+            "Note": "",
+            "IsNoteVisible": "False",
+            "Id": "74ab090c-26e0-4da8-b6b0-ae7787e3b628",
+            "FlowProperties": [
+              {
+                "ParentBuildingBlockId": "74ab090c-26e0-4da8-b6b0-ae7787e3b628",
+                "ParentFlowPropertyId": "",
+                "TemplateId": "",
+                "Type": "Dictionary",
+                "Key": "StartAction",
+                "Title": "",
+                "SortOrder": "1",
+                "ValueId": "11a17b43-f603-4bac-a756-b4c4eb73000d",
+                "LType": "LText",
+                "IsExpanded": "False",
+                "IsBlockPropertyChecked": "True",
+                "CustomSortOrder": "0",
+                "Id": "46211637-210e-439a-95b3-50d0ca34e4dd",
+                "ChildProperties": [],
+                "Connections": [],
+                "Value": {
+                  "Value": "NoAction",
+                  "Id": "11a17b43-f603-4bac-a756-b4c4eb73000d"
+                }
+              },
+              {
+                "ParentBuildingBlockId": "74ab090c-26e0-4da8-b6b0-ae7787e3b628",
+                "ParentFlowPropertyId": "",
+                "TemplateId": "",
+                "Type": "Header",
+                "Key": "Header",
+                "Title": "Start",
+                "SortOrder": "0",
+                "ValueId": "8725b9f3-74c2-464f-85f6-b4c4eb73000d",
+                "LType": "LSignal",
+                "IsExpanded": "False",
+                "IsBlockPropertyChecked": "",
+                "CustomSortOrder": "0",
+                "Id": "cd0d6b3b-91d9-4f42-9092-98acf3115076",
+                "ChildProperties": [],
+                "Connections": [
+                  {
+                    "OutputFlowPropertyId": "cd0d6b3b-91d9-4f42-9092-98acf3115076",
+                    "InputFlowPropertyId": "7f312ff5-c7a4-443c-bc3f-c5d74bd8e2d6",
+                    "Id": "74b4122e-60a1-41ad-940f-b4c4eb74000d",
+                    "WireGuides": []
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "FlowProperties": []
+      }
+    }
+  ],
+  "SubFlows": [],
+  "UnassociatedExportData": {
+    "ExportMetadata": [
+      {
+        "DoubleGroupSeparator": ",",
+        "DoubleDecimalSeparator": ".",
+        "CurrentBuildNumber": "0.0.2.0",
+        "DBVersion": "55",
+        "FullDateTimeFormat": "dddd, MMMM d, yyyy h:mm:ss tt",
+        "CultureName": "en-US"
+      }
+    ],
+    "FlowTreeHierarchyItem0": [
+      {
+        "MetadataId": "e731d337-819c-4738-9900-b4c4dcdb000d",
+        "ParentId": "b8dbf3c4-2122-4b73-8334-21c1cd1b0e1e",
+        "Title": "New Flow",
+        "Description": "",
+        "Type": "Flow",
+        "IsReferenced": "False",
+        "DateCreation": "9/13/2026 12:50:28 AM +00:00",
+        "DateModify": "9/13/2026 12:50:28 AM +00:00",
+        "PreviousSiblingId": "",
+        "LinkedWith": "None",
+        "Id": "0dddde0e-d8b8-4766-b0e3-2092ab1373d1"
+      }
+    ],
+    "FlowTreeHierarchyItemSortOrder2": [
+      {
+        "PreviousSiblingId": "",
+        "Id": "0dddde0e-d8b8-4766-b0e3-2092ab1373d1"
+      }
+    ],
+    "HierarchyItemMetadata1": [
+      {
+        "Title": "New Flow",
+        "Description": "",
+        "Type": "Flow",
+        "LinkedWith": "None",
+        "Id": "e731d337-819c-4738-9900-b4c4dcdb000d"
+      }
+    ],
+    "UsedTypes": [
+      {
+        "ImageCollectionNestingItem": "WebCollectionNestingItem",
+        "ImageCollectionNestingItem20": "WebCollectionNestingItem11"
+      },
+      {
+        "ImageCollectionNestingItem": "DesktopCollectionNestingItem",
+        "ImageCollectionNestingItem20": "DesktopCollectionNestingItem15"
+      },
+      {
+        "ImageCollectionNestingItem": "ConnectedPropertyInfo",
+        "ImageCollectionNestingItem20": "ConnectedPropertyInfo8"
+      },
+      {
+        "ImageCollectionNestingItem": "FlowPropertyInfo",
+        "ImageCollectionNestingItem20": "FlowPropertyInfo7"
+      },
+      {
+        "ImageCollectionNestingItem": "BuildingBlockInfo",
+        "ImageCollectionNestingItem20": "BuildingBlockInfo6"
+      },
+      {
+        "ImageCollectionNestingItem": "Flowchart",
+        "ImageCollectionNestingItem20": "Flowchart5"
+      },
+      {
+        "ImageCollectionNestingItem": "ConnectedPropertyWireguide",
+        "ImageCollectionNestingItem20": "ConnectedPropertyWireguide62"
+      },
+      {
+        "ImageCollectionNestingItem": "FlowTreeHierarchyItem",
+        "ImageCollectionNestingItem20": "FlowTreeHierarchyItem0"
+      },
+      {
+        "ImageCollectionNestingItem": "HierarchyItemMetadata",
+        "ImageCollectionNestingItem20": "HierarchyItemMetadata1"
+      },
+      {
+        "ImageCollectionNestingItem": "ScheduleHierarchySortOrder",
+        "ImageCollectionNestingItem20": "ScheduleHierarchySortOrder45"
+      },
+      {
+        "ImageCollectionNestingItem": "FlowTreeHierarchyItemSortOrder",
+        "ImageCollectionNestingItem20": "FlowTreeHierarchyItemSortOrder2"
+      },
+      {
+        "ImageCollectionNestingItem": "WebDynamicFieldEntity",
+        "ImageCollectionNestingItem20": "WebDynamicFieldEntity12"
+      },
+      {
+        "ImageCollectionNestingItem": "WebElementInfo",
+        "ImageCollectionNestingItem20": "WebElementInfo9"
+      },
+      {
+        "ImageCollectionNestingItem": "DesktopDynamicFieldEntity",
+        "ImageCollectionNestingItem20": "DesktopDynamicFieldEntity16"
+      },
+      {
+        "ImageCollectionNestingItem": "DesktopElementPatternMethodEntity",
+        "ImageCollectionNestingItem20": "DesktopElementPatternMethodEn17"
+      },
+      {
+        "ImageCollectionNestingItem": "DesktopElementInfo",
+        "ImageCollectionNestingItem20": "DesktopElementInfo13"
+      },
+      {
+        "ImageCollectionNestingItem": "ScheduleAction",
+        "ImageCollectionNestingItem20": "ScheduleAction50"
+      },
+      {
+        "ImageCollectionNestingItem": "ScheduleHierarchy",
+        "ImageCollectionNestingItem20": "ScheduleHierarchy43"
+      },
+      {
+        "ImageCollectionNestingItem": "ScheduleHierarchyItemMetadata",
+        "ImageCollectionNestingItem20": "ScheduleHierarchyItemMetadata44"
+      },
+      {
+        "ImageCollectionNestingItem": "NewScheduleInfo",
+        "ImageCollectionNestingItem20": "NewScheduleInfo49"
+      },
+      {
+        "ImageCollectionNestingItem": "ScheduleInfoModel",
+        "ImageCollectionNestingItem20": "ScheduleInfoModel60"
+      },
+      {
+        "ImageCollectionNestingItem": "ScheduleRecurring",
+        "ImageCollectionNestingItem20": "ScheduleRecurring52"
+      },
+      {
+        "ImageCollectionNestingItem": "ScheduleRecurringDay",
+        "ImageCollectionNestingItem20": "ScheduleRecurringDay53"
+      },
+      {
+        "ImageCollectionNestingItem": "ScheduleRecurringMonth",
+        "ImageCollectionNestingItem20": "ScheduleRecurringMonth54"
+      },
+      {
+        "ImageCollectionNestingItem": "ScheduleRecurringSmallUnitOfTime",
+        "ImageCollectionNestingItem20": "ScheduleRecurringSmallUnitOfT56"
+      },
+      {
+        "ImageCollectionNestingItem": "ScheduleRecurringSmallUnitOfTimeCustom",
+        "ImageCollectionNestingItem20": "ScheduleRecurringSmallUnitOfT55"
+      },
+      {
+        "ImageCollectionNestingItem": "ScheduleRecurringWeek",
+        "ImageCollectionNestingItem20": "ScheduleRecurringWeek57"
+      },
+      {
+        "ImageCollectionNestingItem": "ScheduleRunListStep",
+        "ImageCollectionNestingItem20": "ScheduleRunListStep51"
+      },
+      {
+        "ImageCollectionNestingItem": "ScheduleVariable",
+        "ImageCollectionNestingItem20": "ScheduleVariable58"
+      },
+      {
+        "ImageCollectionNestingItem": "RunListInfo",
+        "ImageCollectionNestingItem20": "RunListInfo46"
+      },
+      {
+        "ImageCollectionNestingItem": "RunListInfoModel",
+        "ImageCollectionNestingItem20": "RunListInfoModel59"
+      },
+      {
+        "ImageCollectionNestingItem": "RunListsStepFlow",
+        "ImageCollectionNestingItem20": "RunListsStepFlow48"
+      },
+      {
+        "ImageCollectionNestingItem": "RunListStep",
+        "ImageCollectionNestingItem20": "RunListStep47"
+      },
+      {
+        "ImageCollectionNestingItem": "LBooleanEntity",
+        "ImageCollectionNestingItem20": "LBooleanEntity23"
+      },
+      {
+        "ImageCollectionNestingItem": "LNumberEntity",
+        "ImageCollectionNestingItem20": "LNumberEntity27"
+      },
+      {
+        "ImageCollectionNestingItem": "LDateEntity",
+        "ImageCollectionNestingItem20": "LDateEntity25"
+      },
+      {
+        "ImageCollectionNestingItem": "LDateTimeEntity",
+        "ImageCollectionNestingItem20": "LDateTimeEntity26"
+      },
+      {
+        "ImageCollectionNestingItem": "LTimeEntity",
+        "ImageCollectionNestingItem20": "LTimeEntity30"
+      },
+      {
+        "ImageCollectionNestingItem": "LTextEntity",
+        "ImageCollectionNestingItem20": "LTextEntity29"
+      },
+      {
+        "ImageCollectionNestingItem": "LPositionEntity",
+        "ImageCollectionNestingItem20": "LPositionEntity28"
+      },
+      {
+        "ImageCollectionNestingItem": "LAreaEntity",
+        "ImageCollectionNestingItem20": "LAreaEntity22"
+      },
+      {
+        "ImageCollectionNestingItem": "LFileEntity",
+        "ImageCollectionNestingItem20": "LFileEntity33"
+      },
+      {
+        "ImageCollectionNestingItem": "LImageCollectionEntity",
+        "ImageCollectionNestingItem20": "LImageCollectionEntity35"
+      },
+      {
+        "ImageCollectionNestingItem": "LImageCollectionItemEntity",
+        "ImageCollectionNestingItem20": "LImageCollectionItemEntity36"
+      },
+      {
+        "ImageCollectionNestingItem": "LWebCollectionEntity",
+        "ImageCollectionNestingItem20": "LWebCollectionEntity38"
+      },
+      {
+        "ImageCollectionNestingItem": "LWebCollectionItemEntity",
+        "ImageCollectionNestingItem20": "LWebCollectionItemEntity39"
+      },
+      {
+        "ImageCollectionNestingItem": "LDesktopCollectionEntity",
+        "ImageCollectionNestingItem20": "LDesktopCollectionEntity40"
+      },
+      {
+        "ImageCollectionNestingItem": "LDesktopCollectionItemEntity",
+        "ImageCollectionNestingItem20": "LDesktopCollectionItemEntity41"
+      },
+      {
+        "ImageCollectionNestingItem": "LImageEntity",
+        "ImageCollectionNestingItem20": "LImageEntity34"
+      },
+      {
+        "ImageCollectionNestingItem": "LDesktopElementEntity",
+        "ImageCollectionNestingItem20": "LDesktopElementEntity31"
+      },
+      {
+        "ImageCollectionNestingItem": "LWebElementEntity",
+        "ImageCollectionNestingItem20": "LWebElementEntity32"
+      },
+      {
+        "ImageCollectionNestingItem": "LCodeCSharpEntity",
+        "ImageCollectionNestingItem20": "LCodeCSharpEntity24"
+      },
+      {
+        "ImageCollectionNestingItem": "AssemblyReferenceEntity",
+        "ImageCollectionNestingItem20": "AssemblyReferenceEntity37"
+      },
+      {
+        "ImageCollectionNestingItem": "InteractiveImageInfo",
+        "ImageCollectionNestingItem20": "InteractiveImageInfo18"
+      },
+      {
+        "ImageCollectionNestingItem": "DataFileInfo",
+        "ImageCollectionNestingItem20": "DataFileInfo21"
+      },
+      {
+        "ImageCollectionNestingItem": "SubFlowInfo",
+        "ImageCollectionNestingItem20": "SubFlowInfo4"
+      },
+      {
+        "ImageCollectionNestingItem": "ImageCollectionInfo",
+        "ImageCollectionNestingItem20": "ImageCollectionInfo19"
+      },
+      {
+        "ImageCollectionNestingItem": "WebCollectionInfo",
+        "ImageCollectionNestingItem20": "WebCollectionInfo10"
+      },
+      {
+        "ImageCollectionNestingItem": "DesktopCollectionInfo",
+        "ImageCollectionNestingItem20": "DesktopCollectionInfo14"
+      },
+      {
+        "ImageCollectionNestingItem": "FlowInfo",
+        "ImageCollectionNestingItem20": "FlowInfo3"
+      },
+      {
+        "ImageCollectionNestingItem": "FlowTestCase",
+        "ImageCollectionNestingItem20": "FlowTestCase42"
+      }
+    ]
+  }
+}
